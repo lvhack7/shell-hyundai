@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.bg-circle-primary {
+    width: 100vw; /* Adjust the width and height as needed */
+    background-color: #002B9B;
+    border-radius: 0 0 90% 30%; /* This creates the quarter circle effect */
+    overflow: hidden;
+}
+
+.bg-circle-white {
+    width: 100vw; /* Adjust the width and height as needed */
+    background-color: white;
+    border-radius: 0 0 25% 25%; /* This creates the quarter circle effect */
+    overflow: hidden;
+}
+
+.bg-world {
+    background-image: url("./imgs/world.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-prizes {
+    background-image: url("./imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-circle-primary {
+        width: 100vw; /* Adjust the width and height as needed */
+        background-color: #002B9B;
+        border-radius: 0 0 80% 0; /* This creates the quarter circle effect */
+        overflow: hidden;
+    }
+
+    .bg-circle-white {
+        border-radius: 0 0 20% 0%;
+    }
+}
+
+.bg-map {
+    background-image: url("./imgs/map-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
