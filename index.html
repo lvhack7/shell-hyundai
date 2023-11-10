@@ -33,7 +33,7 @@
                 <div class="block text-center justify-center">
                     <p class="text-2xl font-extralight text-white mb-4">Больше чем акция</p>
                     <p class="text-4xl md:text-5xl text-white uppercase font-extrabold mb-4">Hyundai & Shell <br> дарят подарки</p>
-                    <p class="text-lg font-extralight text-white mb-6">прими участие с 15.11 по 15.12</p>
+                    <p class="text-lg font-extralight text-white mb-6">прими участие с 22.11 по 22.12</p>
                     <button onclick="openConditions()" class="rounded-full bg-[#FFD200] font-bold hover:bg-yellow-300 focus:bg-yellow-500 text-black uppercase px-10 py-3 text-lg mb-3">условия акции</button>
                     <p class="text-white text-xs font-light">*Изображения призов на картинке могут <br> отличаться от фактических</p>
                 </div>
@@ -182,43 +182,48 @@
                 <input
                     id="surname"
                     type="text"
-                    placeholder="Иванов"
+                    required
+                    placeholder="*Фамилия"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <input
                     id="name"
+                    required
                     type="text"
-                    placeholder="Иван"
+                    placeholder="*Имя"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <input
                     id="city"
                     type="text"
-                    placeholder="Астана"
+                    required
+                    placeholder="*Город"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <input
                     id="phone"
                     type="tel"
-                    placeholder="+7 (777) 777-77-77"
+                    required
+                    placeholder="*Номер телефона"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <input
                     id="prize"
                     type="text"
-                    placeholder="Kia Rio"
+                    placeholder="Марка автомобиля"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <input
                     id="text"
                     type="text"
-                    placeholder="Масло №1, Масло №2"
+                    placeholder="Какие еще бренды моторного масла Вы предпочитаете?"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <input
                     id="num"
                     type="text"
-                    placeholder="111-111-111"
+                    required
+                    placeholder="*Ваш уникальный код"
                     class="border-2 border-gray-300 p-4 mt-2 text-gray-700"
                 />
                 <a href="privacy-polcity.html" class="z-10 flex justify-center items-center">
@@ -247,9 +252,9 @@
                     <img class="pl-4" src="./imgs/shell-logo.png" width="110" > 
                 </div>
                 <div class="flex justify-between space-x-4 md:space-x-10">
-                    <a href="#conditions" class="text-white text-sm font-light text-lg hover:font-medium hover:cursor-pointer">Условия</a>
-                    <a href="#prizes" class="text-white text-sm font-light text-lg hover:font-medium hover:cursor-pointer">Призы</a>
-                    <a href="#activation" class="text-white text-sm font-light text-lg hover:font-medium hover:cursor-pointer">Активация кода</a>
+                    <a href="#conditions" class="text-white text-xs font-light text-lg hover:font-medium hover:cursor-pointer">Условия</a>
+                    <a href="#prizes" class="text-white text-xs font-light text-lg hover:font-medium hover:cursor-pointer">Призы</a>
+                    <a href="#activation" class="text-white text-xs font-light text-lg hover:font-medium hover:cursor-pointer">Активация кода</a>
                 </div>
             </div>
         </div>
